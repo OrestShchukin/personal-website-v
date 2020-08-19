@@ -352,6 +352,9 @@ h2{
     .soma-box{
         grid-template-columns: 1fr 1fr 1fr ;
     }
+    .ms-box{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media(max-width:780px){
