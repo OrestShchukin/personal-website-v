@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+/* *{
+    box-sizing: border-box;
+    font-family: 'Bahiana', cursive;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-decoration : none;
+    font-size: 300%;
+    padding-left:.6%;
+    padding-right:.6%; 
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    background-color: white;
+    top: 0;
+    box-shadow: 0px 6px 11px rgb(0, 0, 0);
+}
+nav{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+
+.img{
+    position: relative;
+    width: 100%;
+}
+.personal{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    top: 45%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.text{
+    text-align: center;
+    font-size: 300%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+h2{
+    font-size: 450%;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 450%;
+}
+.logo{
+    color: black;
+}
+
+.photo{
+    position: relative;
+    justify-content: center;
+}
+
+main{
+    margin-top: 55px;
+}
+
+#some-of-mine-arts{
+    margin-top: 10px;
+}
+.soma-box{
+    width: 100%;
+    padding: 3% 3% 3% 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.photo-box{
+    width: 550px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    min-height: 730px;
+    display: inline-block;
+    margin-bottom: 2%;   
+}
+
+.soma-photo{
+    width: 100%;
+    border-radius: 100px;
+}
+
+.logotypes-arts{
+    text-align: left;
+    padding-left: 7%;
+    font-size: 300%;
+    margin-bottom: 10px;
+
+}
+
+.arts{
+    height: auto;
+    width: 100%;
+    max-height: 850px;
+    border-radius: 70px;
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+
+.art-box{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    min-height: 880px;
+    display: flex;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+    
+}
+.text-box-arts{
+    display: inline-block;
+    max-width: 600px;
+    flex-basis: 600px;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+.black-box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    top: 0;
+}
+
+
+
+.more-button{
+    font-size: 40px;
+}
+.button-box{
+    display: inline-block;
+   
+}
+.ms-text{
+    text-align: left;
+}
+
+.form-box{
+    border-top: 3px solid black;
+    padding-top: 20px;
+}
+
+.form-text{
+    font-size: 45px;
+}
+
+.contacts-inputs{
+    width: 80%;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.question-box{
+    min-height: 100px;
+}
+
+.submit-button{
+    font-size: 30px;
+}
+.link-box{
+    box-shadow: 0px -3px 7px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-top: 25px;
+}
+
+.instagram{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 90px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.me-in-society-links{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 130px;
+}
+
+.haha{
+
+    font-size: 50px;
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+*{box-sizing: border-box;}
+
+:root{
+    font-family: 'Bahiana', cursive;
+    margin: 0;
+    padding:0;
+    font-size: 1.2rem ;
+    scroll-behavior: smooth;
+    scroll-padding-top: 40%;
+}
+body{
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main{
+    padding-top: 21.82px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    position: fixed;
+    background-color: white;
+    max-width: 980px;
+    width: 100%;
+    z-index: 2000;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+}
+
+nav{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.img{
+    width: 100%;  
+}
+
+
+
+
+.photo{
+    height:400px;
+    background-image: url(cyberpunk.jpg);
+    background-position: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+#personal-website{
+    color: white;
+    margin: 0 auto;
+}
+
+.black-box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+h1{
+    z-index: 10;
+}
+
+.starship{
+    background-image: url(starship.jpg);
+    background-size:cover ;
+}
+
+.personal{
+    color: white;
+    margin: 0 auto;
+    z-index: 10;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+@media (min-width:500px){
+    :root{
+        font-size: 1.5rem;
+    }
+    main{
+        padding-top: 28px;
+    }
+}
+.soma-photo{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.soma-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.ms-box{
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo-box{
+    border: 3px solid black;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.art-box{
+    padding: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.arts{
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    padding-right: 0.7%;
+}
+
+.text-box-arts{
+    display: inline-block;
+    max-width: 40%;
+}
+
+@media(max-width:850px){
+    .soma-box{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+
+@media(max-width:780px){
+    .soma-box{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+
+@media(max-width:465px){
+    .arts{
+        width: 100%;
+        height: 100%;
+    }
+    .text-box-arts{
+        max-width: 100%;
+    }
+    .art-box{
+        display:inline-block;
+    }
+    .soma-box{
+        grid-template-columns: 1fr ;
+    }
+}
+
+.my-services-photo{
+    background-image: url(services.png);
+    background-size:cover ;
+    margin-top:3px ;
+}
+
+.link-box{
+    box-shadow: 0px -3px 7px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+.me-in-society-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.me-in-society{
+    margin: 0;
+    padding-top: 10px;
+}
+
+.contacts-inputs{
+    width: 80%;
+    margin: auto;
+}
+
+p{
+    font-size: 1.3rem;
+    margin: 5px;
+}
+input{
+    font-family: 'Bahiana', cursive;
+    font-size: 1.1rem;
+}
+
+.submit-button{
+    margin-top: 5px;
+}
+
+.body-back-ground{
+  
+    width: 100%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+
+}
+
+
