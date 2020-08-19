@@ -99,8 +99,6 @@ h2{
     :root{
         font-size: 1.5rem;
     }
-    
-    header{font-size: 1.5rem;}
     main{
         padding-top: 28px;
     }
@@ -177,10 +175,14 @@ h2{
     .soma-box{
         grid-template-columns: 1fr ;
     }
+}
+
+@media(max-width:560px){
     header{
         font-size: 1rem;
     }
 }
+
 
 .my-services-photo{
     background-image: url(services.png);
