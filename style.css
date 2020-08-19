@@ -177,6 +177,9 @@ h2{
     .soma-box{
         grid-template-columns: 1fr ;
     }
+    header{
+        font-size: 1rem;
+    }
 }
 
 .my-services-photo{
