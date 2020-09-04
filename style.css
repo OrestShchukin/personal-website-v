@@ -3,6 +3,7 @@
 a{
     text-decoration: none;
     color:black;
+    margin-right: 6px;
 }
 
 
@@ -19,6 +20,7 @@ body{
     max-width: 980px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Bahiana', cursive;
 }
 
 main{
@@ -34,13 +36,13 @@ header{
     background-color: white;
     max-width: 980px;
     width: 100%;
-    z-index: 2000;
+    z-index: 999;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
     font-size: 1.4rem;
 }
 
 nav{
-    display: inline-block;
+    display: flex;
     text-decoration: none;
 }
 
@@ -130,6 +132,7 @@ h2{
     border: 3px solid black;
     border-radius: 10px;
     display: flex;
+    margin: 0.75%;
 }
 
 .arts{
@@ -232,4 +235,9 @@ input{
 
 }
 
-
+.btn{
+    padding: 0px 8px 0px 8px;
+}
+.carousel-images{
+    border-radius: 10px;
+}
